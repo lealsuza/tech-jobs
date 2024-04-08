@@ -13,7 +13,6 @@ const Filters = ({ onFilterChange, savedJobs }: FiltersProps) => {
 	const [work, setWork] = useState<string[]>([]);
 	const navigate = useNavigate();
 
-	// eslint-disable-next-line react-hooks/exhaustive-deps
 	const memoFilterChange = useCallback(onFilterChange, []);
 	useEffect(() => {
 		memoFilterChange({ contractStatus: contract, workStatus: work });
