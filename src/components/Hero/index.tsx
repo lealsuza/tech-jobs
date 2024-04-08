@@ -3,7 +3,7 @@ import bg from "../../assets/images/bg.jpg"
 const Hero = () => {
   return (
     <div 
-      className="w-full h-[50vh] flex items-center md:justify-between justify-center md:px-24 px-5 bg-cover bg-no-repeat bg-center relative"
+      className="w-full h-[60vh] flex items-center md:justify-between justify-center md:px-24 px-5 bg-cover bg-no-repeat bg-center relative"
       style={{backgroundImage: `url(${bg})`}}
     >
         <div className="flex flex-col gap-8 z-50">
