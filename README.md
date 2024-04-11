@@ -1,6 +1,6 @@
 # Tech Jobs
 
-Este é um projeto de pesquisa de vagas tech, onde os usuários podem filtrar vagas usando checkbox e uma barra de pesquisa. O projeto foi desenvolvido utilizando React e Tailwind CSS.
+Este é um projeto de pesquisa de vagas tech, onde os usuários podem filtrar vagas usando checkbox e uma barra de pesquisa, salvar vagas, ver detalhes da descrição e requisitos da vaga. O projeto foi desenvolvido utilizando React e Tailwind CSS.
 
 ## Funcionalidades
 
