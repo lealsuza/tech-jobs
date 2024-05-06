@@ -7,7 +7,7 @@ const Hero = () => {
       style={{backgroundImage: `url(${bg})`}}
     >
         <div className="flex flex-col items-center gap-8 z-50 text-center">
-          <span className="md:text-5xl text-3xl font-semibold text-purple-100">Seja bem vindo ao Tech Jobs</span>
+          <span className="md:text-5xl text-3xl font-semibold text-purple-100">Seja bem vindo(a) ao Tech Jobs</span>
           <p className="text-gray-200 md:text-md max-w-[600px] leading-7">
             Conectamos desenvolvedores talentosos a oportunidades empolgantes na indústria de tecnologia. Com recursos avançados de pesquisa e suporte 
             para destacar suas habilidades, estamos aqui para impulsionar sua carreira. Explore nossas vagas e junte-se à nossa comunidade hoje mesmo! 
