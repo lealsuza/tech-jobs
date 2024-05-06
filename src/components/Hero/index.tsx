@@ -3,10 +3,10 @@ import bg from "../../assets/images/bg.jpg"
 const Hero = () => {
   return (
     <div 
-      className="w-full h-[60dvh] flex items-center md:justify-between justify-center md:px-24 px-5 bg-cover bg-no-repeat bg-center relative"
+      className="w-full h-[60dvh] flex items-center justify-center md:px-24 px-5 bg-cover bg-no-repeat bg-center relative"
       style={{backgroundImage: `url(${bg})`}}
     >
-        <div className="flex flex-col gap-8 z-50">
+        <div className="flex flex-col items-center gap-8 z-50 text-center">
           <span className="md:text-5xl text-3xl font-semibold text-purple-100">Seja bem vindo ao Tech Jobs</span>
           <p className="text-gray-200 md:text-md max-w-[600px] leading-7">
             Conectamos desenvolvedores talentosos a oportunidades empolgantes na indústria de tecnologia. Com recursos avançados de pesquisa e suporte 
